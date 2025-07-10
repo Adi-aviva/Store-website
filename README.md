@@ -1,2 +1,2 @@
 # Store-website
-Website for a confectionery store. The website is suitable for different screen sizes.
+Website for a bakery. The website is suitable for different screen sizes.
