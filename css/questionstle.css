@@ -1,0 +1,75 @@
+﻿body {
+    direction: rtl;
+    background-color:lightpink;
+    font-size:35PX;
+}
+
+#title {
+    margin-top: 7%;
+    margin-bottom: 3%;
+    font-size: x-large;
+    font-family: Segoe Print;
+    text-align: center;
+}
+/*the colapsed answers*/
+.answers {
+    color: white;
+    background-color: black;
+    display: none;
+    padding: 0.5%;
+}
+
+/*question & arrow*/
+.blockquesIcon {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: auto;
+}
+
+    /*shows the answers*/
+    .blockquesIcon:hover + .answers {
+        display: flex;
+    }
+
+/*all questions & answers*/
+#block {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 45px;
+}
+
+.questions {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+/*icon arrow*/
+.to-top {
+    color: purple;
+    border-color: purple;
+    text-decoration: none;
+    align-self: flex-end;
+    display: flex;
+}
+
+    .to-top:hover {
+        color: pink;
+        border-color: pink;
+    }
+    /*animation*/
+    .to-top:before {
+        content: "\25BC";
+        border: solid .13em white;
+        border-radius: 10em;
+        border-color: inherit;
+        transition: transform .5s ease-in;
+    }
+
+    /*animation*/
+    .to-top:hover:before {
+        transform: rotate(360deg);
+    }

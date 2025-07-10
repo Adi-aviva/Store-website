@@ -1,0 +1,17 @@
+﻿body {
+   
+}
+.products {
+    flex-wrap:wrap;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media(min-width:600px) {
+}
+

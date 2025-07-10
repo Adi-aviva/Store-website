@@ -1,0 +1,72 @@
+﻿body {
+    direction: rtl;
+    font-family: 'Guttman Yad-Brush';
+    font-size: 24px;
+}
+.im {
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 65%;
+}
+.container {
+    font-family: Algerian;
+}
+marquee {
+  
+    clear: both;
+    font-size: 40px;
+}
+#me {
+    border-radius: 30px;
+    right: 0px;
+    position: absolute;
+    width:25%;
+    height:115%;
+}
+#allaboutme {
+    margin-top:0px;
+    margin-right: 445px;
+    margin-left: 150pX;
+    position: absolute;
+}
+@media(max-width:1200px) {
+    #me {
+        width: 22%;
+        height: 100%;
+    }
+
+    #allaboutme {
+        margin-top: 0px;
+        margin-right: 550px;
+        margin-left: 250pX;
+    }
+}
+    @media(max-width:600px) {
+        body {
+            font-size: 20px;
+        }
+
+        #me {
+            border-radius: 50%;
+            width: 45%;
+            height: 45%;
+            margin-right: 30%;
+        }
+
+        #allaboutme {
+            margin-top: 350px;
+            margin-right: 10%;
+            margin-left: 10%;
+        }
+
+        footer {
+            margin-top: 480%;
+        }
+
+        marquee {
+            clear: both;
+            font-size: 40px;
+            margin-bottom: -470%;
+        }
+    }
+

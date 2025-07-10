@@ -1,0 +1,22 @@
+﻿body
+{
+}
+@keyframes images{
+ 0%{
+       background-image:url("1.jpg");
+       background-size:100%;
+   }
+   50%{
+        background-image:url("2.jpg");
+        background-size:100%;
+   }
+}
+.p{
+    width:200px;
+    height:200px;
+ animation-name:images;
+    animation-duration:5s;
+    animation-iteration-count:3;
+    animation-timing-function:ease-in;
+    animation-delay:4s;
+}

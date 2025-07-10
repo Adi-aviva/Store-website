@@ -1,0 +1,50 @@
+﻿body {
+  
+}
+.im {
+    width: 150PX;
+    height: 150PX;
+    
+}
+.im:hover {
+     width: 180PX;
+     height: 180PX;
+ }
+
+.courses {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    grid-template-rows: 200px 200PX ;
+    grid-template-columns: 30%  30% 30%;
+}
+fieldset {
+    font-weight:bold;
+    font-family:'Lucida Bright';
+    color: black;
+    background-image: url(../images/flower.png) 
+    
+}
+#button1{
+    background-color:goldenrod;
+}
+
+@media(max-width:600px) {
+    fieldset { 
+       margin-top:20px;
+    }
+    .im {
+        width: 120PX;
+        height: 120PX;
+    }
+    .im:hover {
+        width:135PX;
+        height:135PX;
+    }
+
+}
+@media(max-width:768px) {
+    fieldset {
+        margin-top: 20px;
+    } 
+}
